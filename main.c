@@ -1,6 +1,11 @@
 //
-// Created by Murat Durgut on 15.10.18.
+// main.c
+// checkPrime
 //
+// Created by Murat Durgut on 15.10.18.
+// Copyright © 2018 FHV IT. All rights reserved.
+//
+
 
 #include <stdio.h>
 #include <math.h>
