@@ -11,7 +11,7 @@
 #include <math.h>
 
 
-int checkPrime(long long n)
+int checkPrime(int n)
 {
     int t = 0;
     int i = 1;
@@ -19,10 +19,9 @@ int checkPrime(long long n)
 
     while (i<=n)
     {
-        if( n % i == 0) {
+        if( n % i == 0)
             t++;
             i++;
-        }
     }
 
     if (t==2) {
