@@ -19,9 +19,10 @@ int checkPrime(long long n)
 
     while (i<=n)
     {
-        if( n % i == 0)
+        if( n % i == 0) {
             t++;
-        i++;
+            i++;
+        }
     }
 
     if (t==2) {
@@ -34,7 +35,6 @@ int checkPrime(long long n)
 
 int main()
 {
-
     printf("checkPrime\n");
     int n;
     printf("Enter number to check: ");
