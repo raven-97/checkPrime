@@ -1,0 +1,2 @@
+# checkPrime
+Prime number verifier
